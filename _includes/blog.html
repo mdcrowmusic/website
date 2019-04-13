@@ -1,0 +1,11 @@
+<link rel="stylesheet" type="text/css "href="../assets/styles/blog.css">
+
+<div class="text-algign-center" id="blog">
+ {% for post in site.posts %}
+ <row><h1 class="text-left">{{post.title}}</h1><h3 class="text-left">{{post.date | date_to_long_string }}</h3></row>
+<h4 class="text-left">{{post.content}}<h4>
+
+
+{% endfor %}
+
+</div>

@@ -1,0 +1,42 @@
+html {
+scrolling:yes;
+height:100%;
+width:100%;
+
+
+}
+
+::-webkit-scrollbar{
+display:none;
+}
+
+body {
+position:absolute;
+
+height:100%;
+width:100%;
+z-index:0;
+
+}
+
+#backdrop {
+        position: absolute;
+height:auto;
+width:100%;
+	background:RGB(0,85,120);
+        opacity:0.82;
+	
+}
+
+a {
+color: #f8f8ff;
+
+}
+a:hover {
+
+cursor:pointer;
+text-decoration:none;
+
+}
+
+
