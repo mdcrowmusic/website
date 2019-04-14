@@ -32,7 +32,7 @@ color:#B8B8B8;
 
 #siteTitle {
     font-size:22px;
-    font-family:pristina;
+    @font-face:pristina;
     color:RGB(0,85,120);
     -webkit-user-select:none;
   
