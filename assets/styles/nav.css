@@ -33,7 +33,8 @@ color:#B8B8B8;
 	font-family:"pristina";
 src: 
 url("../pristina.woff") format("woff"),
-	url("../pristina.otf") format("opentype");}
+	url("../pristina.otf") format("opentype"),
+	url("../pristina.ttf") format("truetype");}
 
 #siteTitle {
     font-size:22px;
