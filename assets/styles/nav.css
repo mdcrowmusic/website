@@ -29,10 +29,15 @@ color:#B8B8B8;
 
 
 }
+@font-face{
+	font-family:"pristina";
+src: 
+url("../pristina.woff") format("woff"),
+	url("../pristina.otf") format("opentype");}
 
 #siteTitle {
     font-size:22px;
-    font-family:pristina;
+    font-family:'pristina';
     color:RGB(0,85,120);
     -webkit-user-select:none;
   
