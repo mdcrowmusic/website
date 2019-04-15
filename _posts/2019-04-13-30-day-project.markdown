@@ -1,8 +1,0 @@
----
-title: 30 Day Project
-layout: post
-date: 2019-04-13 
----
-
-
-this is where the text goes
