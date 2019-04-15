@@ -1,5 +1,5 @@
 
-	#blog{
+	#blog {
 color: white;
 font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size:15vw;
@@ -8,17 +8,10 @@ padding-bottom:50px;
 margin:50px;
 text-align:left;
 display:inline-block;
-
-
-
-
-
-
-
 }
 
 
-h1, h3{
+h1, h3 {
 
 display:inline-block;
 padding-right: 25px;
@@ -26,7 +19,7 @@ padding-top:10px;
 }
 
 
-h1{
+h1 {
 font-size:35px;
 }
 h3 {
