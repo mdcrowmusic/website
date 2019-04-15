@@ -1,4 +1,13 @@
-
+	#blog {
+color: white;
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+    font-size:15vw;
+padding-top:10px;
+padding-bottom:50px;
+margin:50px;
+text-align:left;
+display:inline-block;
+}
 
 
 
