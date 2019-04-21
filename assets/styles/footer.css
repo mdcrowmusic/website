@@ -2,6 +2,7 @@
 
 
 footer.container{
+ position:absolute;
     height: 80px;
 width:100%;
 left:0px;
@@ -17,7 +18,6 @@ rgba(0,85,120,1) 80%
 
 
 #copyright {
-bottom:0px;
     top:50px;
     color:#F8F8FF;
     font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
