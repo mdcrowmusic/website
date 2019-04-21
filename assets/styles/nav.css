@@ -2,7 +2,7 @@
 
 
 nav.container {
-   position:sticky;
+   position:static;
    height:45px;
    background-color:#ffffff;
    width:100%;
