@@ -12,7 +12,7 @@ display:none;
 
 body {
 position: absolute;
-
+background: img(".../img/ahuje.png");
 height:100%;
 width:100%;
 z-index:0;
@@ -20,7 +20,7 @@ z-index:0;
 }
 
 #backdrop {
-        position: absolute;
+        position: sticky;
 height:auto;
 width:100%;
 	background:RGB(0,85,120);
