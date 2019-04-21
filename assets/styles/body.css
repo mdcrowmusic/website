@@ -12,7 +12,7 @@ display:none;
 
 body {
 position: absolute;
-background-image: url("img/ahuje.png");
+background: url(".../img/ahuje.png");
 height:100%;
 width:100%;
 z-index:0;
