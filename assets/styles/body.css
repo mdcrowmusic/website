@@ -20,7 +20,7 @@ z-index:0;
 }
 
 #backdrop {
-        position: absolute;
+        position: fixed;
 height:auto;
 width:100%;
 	background:RGB(0,85,120);
