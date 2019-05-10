@@ -25,6 +25,7 @@ height:100%;
 width:100%;
 	background:RGB(0,85,120);
         opacity:0.82;
+	z-index:1;
 	
 }
 
