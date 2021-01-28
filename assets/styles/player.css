@@ -63,7 +63,7 @@ background:transparent;
 border:none;
 color:rgb(0,85,120);
 padding-top:10px;
-max-height:30px;
+height:30px;
 }
 
 #pause{
@@ -72,7 +72,7 @@ background:transparent;
 border:none;
 color:rgb(0,85,120);
 padding-top:10px;
-max-height:30px;
+height:30px;
 }
 #play{
   display:none;
@@ -80,7 +80,7 @@ max-height:30px;
   border:none;
   color:rgb(0,85,120);
   padding-top:10px;
-  max-height:30px;
+  height:30px;
 
 }
 
@@ -90,14 +90,14 @@ max-height:30px;
   border:none;
   color:rgb(0,85,120);
   padding-top:10px;
-  max-height:30px;
+  height:30px;
 }
 #hideTracklist{
   background:transparent;
   border:none;
   color:rgb(0,85,120);
   padding-top:10px;
-  max-height:30px;
+  height:30px;
   display: none;
 }
 
