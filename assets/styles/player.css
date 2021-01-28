@@ -1,0 +1,110 @@
+
+#musicplayer{
+
+}
+.track-item {
+  color:#b8b8b8;
+  white-space: nowrap;
+    display: inline;
+  padding-left:70px;
+  padding-right:70px;
+  font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+  font-size:16px;
+
+
+}
+
+.track-item:hover {
+  cursor:pointer;
+  color:RGB(0,85,120);
+}
+
+#tracklist{
+  display: none;
+  position:fixed;
+  width:100%;
+  margin-top:50px;
+  padding:50px;
+  overflow-x: scroll;
+  overflow-y: hidden;
+    text-align: center;
+
+
+}
+
+::-webkit-scrollbar{
+ width:0px;
+}
+
+div #current{
+  background-image: url("ahuje.png");
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+
+.current{
+color:RGB(0,85,120);
+position: static;
+list-style: none;
+min-width:150px;
+max-width: 200px;
+
+margin-top:10px;
+margin-bottom:12px;
+overflow-x: hidden;
+font-size:14px;
+cursor: default;
+font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
+}
+
+
+#initialPlay{
+background:transparent;
+border:none;
+color:rgb(0,85,120);
+padding-top:10px;
+max-height:30px;
+}
+
+#pause{
+display:none;
+background:transparent;
+border:none;
+color:rgb(0,85,120);
+padding-top:10px;
+max-height:30px;
+}
+#play{
+  display:none;
+  background:transparent;
+  border:none;
+  color:rgb(0,85,120);
+  padding-top:10px;
+  max-height:30px;
+
+}
+
+
+#showTracklist{
+  background:transparent;
+  border:none;
+  color:rgb(0,85,120);
+  padding-top:10px;
+  max-height:30px;
+}
+#hideTracklist{
+  background:transparent;
+  border:none;
+  color:rgb(0,85,120);
+  padding-top:10px;
+  max-height:30px;
+  display: none;
+}
+
+
+#progress {
+width:100%;
+margin-top:-7;
+height:4;
+
+}
