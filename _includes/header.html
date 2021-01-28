@@ -1,0 +1,57 @@
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="https://kit.fontawesome.com/8f233f5c5b.js" crossorigin="anonymous"></script>
+<script src="../scripts/navigation.js"></script>
+<script src="../scripts/player.js"></script>
+<script src="../scripts/progress.js"></script>
+
+</head>
+<link rel="stylesheet" type="text/css" href="../assets/styles/header.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+<link rel="stylesheet" type="text/css" href="../assets/styles/player.css">
+<link rel="stylesheet" type="text/css" href="../assets/styles/about.css">
+
+
+
+<body class="container">
+
+<div class="row row1">
+<canvas id="progress" width="500" height="2"></canvas>
+<a class="col-lg-3 justify-content-around text-center" id="siteTitle"> MORGAN DILLON CROW </a>
+
+<div id="navigation" class="d-inline-flex text-center justify-content-around col">
+<a class="d-none d-sm-block link nav-link" id="about">  About  </a>
+<a class="d-none d-sm-block link nav-link" id="music">  Music  </a>
+<a target="_blank" href="http://fiverr.com/mdcrowmusic"
+ class="d-none d-sm-block link nav-link" id="fiverr">  Fiverr  </a>
+</div>
+
+<div id="social" class="justify-content-around col text-center d-none d-sm-block">
+  <a class="social_icon" href=http://www.twitter.com/mdcrowmusic target="_blank"><img id="twitter" src=../assets/img/twitter_icon.png height=28px /></a>
+  <a class="social_icon" href=http://www.instagram.com/mdcrowmusic/ target="_blank"><img id="instagram" src=../assets/img/instagram_icon.png height=28px></img></a>
+  <a class="social_icon" href=http://youtube.com/user/mdcrowmusic target="_blank"><img id="youtube" src=../assets/img/yt_icon.png height=28px></img></a>
+</div>
+<div id="musicplayer" class="d-inline-flex col-sm-12 col-md justify-content-around text-center">
+<button class="text-right" id="initialPlay"><i class="fa fa-play"></i></button>
+<button onclick="document.getElementById('player').pause()" class="" id="pause"><i class="fa fa-pause"></i></button>
+<button onclick="document.getElementById('player').play()" class="" id="play"><i class="fa fa-play"></i></button>
+<div id="current"></div>
+<button class="text-center" id="showTracklist"><i class="fa fa-bars"></i></button>
+<button class="text-center" id="hideTracklist"><i class="fa fa-bars"></i></button>
+</div>
+</div>
+</div>
+<canvas id="progress" width="500" height="2"></canvas>
+<div id="top-overflow"></div>
+<div id="expander"><ul id="tracklist" class="align-self-center"></ul></div>
+<audio id="player" ontimeupdate="updateBar()"></audio>
+<div class="align-self-center row row2" id="aboutDiv">
+<div class="col-md-6  d-inline-flex justify-content-end"><img class="img-fluid" id="about-image" src="../assets/img/about.jpg"></div>
+<div class="col-md-6 d-inline-flex"><p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p></div>
+
+</div>
+
+
+</body>
+</html>
