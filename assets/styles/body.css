@@ -1,42 +1,31 @@
-html {
-scrolling:yes;
-height:100%;
-width:100%;
+
+body{
+position:relative;
+margin:0;
+height:100%
 
 
 }
 
-::-webkit-scrollbar{
-display:none;
+#background {
+	height:inherit;
+	background-image: url("../img/ahuje.png");
+        position:relative;
+       }
+
+#background-overlay {
+	position: inherit;
+	background-color:rgba(0,85,120,.82);
+	height:inherit;
 }
 
-body {
-position: absolute;
-background-image:url('../img/ahuje.png');
-height:100%;
-width:100%;
-z-index:1;
-}
+#logo img{
+width:700px;
 
-#backdrop {
-        position: fixed;
-height:100%;
-width:100%;
-	background:RGB(0,85,120);
-        opacity:0.82;
-	z-index:-1;
-	
-}
+margin-left:15px;
+position:absolute;
+margin-top:200px;
+opacity:.2;
 
-a {
-color: #f8f8ff;
 
 }
-a:hover {
-
-cursor:pointer;
-text-decoration:none;
-
-}
-
-
