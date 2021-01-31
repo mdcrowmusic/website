@@ -1,6 +1,6 @@
 
 footer.container{
- position:fixed;
+ position:static;
     height: 80px;
 max-width:100%;
 left:0px;
