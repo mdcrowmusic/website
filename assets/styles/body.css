@@ -2,12 +2,12 @@
 body {
 position:absolute;
 margin:0;
-height:150%;
+height:100%;
 }
 
 
 #background {
-background-image: url("../img/ahuje2.png");
+background: url("../img/ahuje2.png");
 }
 
 
