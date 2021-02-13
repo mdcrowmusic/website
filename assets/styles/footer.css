@@ -7,8 +7,8 @@ left:0px;
 right:0px;
 bottom: 0px;
 background-image: -webkit-linear-gradient(
-#b8b8b8 0%,
-#b8b8b8 80%
+#f8f8ff 0%,
+#f8f8ff 80%
 );
 z-index:-50;
 
@@ -23,13 +23,13 @@ z-index:-50;
     padding-bottom:5px;
     padding-left: 20px;
     margin-bottom:0px;
-    color:#F8F8FF;
+    color:Black;
     font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size:15px;
 }
 
 #overflow-bottom {
-background-color: #b8b8b8;
+background-color: #f8f8ff;
 position:fixed;
 left:0;
 bottom:0;
