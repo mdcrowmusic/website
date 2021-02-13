@@ -2,7 +2,7 @@ $(document).ready(function(){
 var nav=$("#navigation .row");
 
 $("#siteTitle").click(function(){
-   $("#expander").animate({height:'0px'},"slow");
+   $("#expander").animate({height:'45px'},"slow");
    $("#about").css('color', '');
    $("#music").css('color', '');
    $("#tracklist").hide();
@@ -57,7 +57,7 @@ $("#aboutDiv").hide();
 
 $("#hideTracklist").click(function(){
   $("#tracklist").delay(1).hide(0);
-  $("#expander").animate({height:'0px'},"slow");
+  $("#expander").animate({height:'45px'},"slow");
   $("#showTracklist").delay(700).show(0);
   $("#hideTracklist").delay(700).hide(0);
 });
