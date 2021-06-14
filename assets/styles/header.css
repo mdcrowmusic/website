@@ -28,6 +28,7 @@
 
 #siteTitle{
 font-size:20px;
+	position:absolute; 
     font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
     max-width:100%;
     min-width:250px;
