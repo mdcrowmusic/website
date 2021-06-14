@@ -10,7 +10,7 @@ $("#siteTitle").click(function(){
    });
 
 $("#about").click(function(){
-$("#expander").animate({height:'100%'},"slow");
+$(".row").animate({height:'100%'},"slow");
 $("#aboutDiv").delay(500).fadeIn();
 $("#about").css('color','RGB(0,85,120)');
 $("#music").css('color', '');
