@@ -12,7 +12,7 @@
 
 
 .row1 {
-   background-color:f8f8ff;
+   
    position:fixed;
 	 min-height:45px;
    max-height:200px;
@@ -27,8 +27,7 @@
 }
 
 #siteTitle{
-font-size:20px;
-	position:absolute; 
+font-size:20px; 
     font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
     max-width:100%;
     min-width:250px;
