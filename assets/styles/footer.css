@@ -1,8 +1,8 @@
 
-footer.container{
+footer{
  position:absolute;
     height: 80px;
-max-width:100%;
+width:100%;
 left:0px;
 right:0px;
 bottom: 0px;
