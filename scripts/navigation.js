@@ -17,14 +17,7 @@ $("#music").css('color', '');
 $("#tracklist").hide();
 });
 
-$("#music").click(function(){
-  $("#expander").animate({height:'100%'},"slow");
-  $("#music").css('color','RGB(0,85,120)');
-  $("#about").css('color', '');
-  $("#tracklist").hide();
-  $("#aboutDiv").hide();
 
-});
 
 $("#twitter").hover(function(){
 $(this).attr("src", "../assets/img/twitter_hover.png");
