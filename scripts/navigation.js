@@ -2,7 +2,7 @@ $(document).ready(function(){
 var nav=$("#navigation .row");
 
 $("#siteTitle").click(function(){
-   $("#expander").animate({height:'100%'},"slow");
+   $("#expander").animate({height:'auto'},"slow");
    $("#about").css('color', '');
    $("#music").css('color', '');
    $("#tracklist").hide();
