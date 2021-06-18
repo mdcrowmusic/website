@@ -21,7 +21,7 @@
 }
 
 #siteTitle{
-	position:fixed;
+	
    font-size:20px;
     font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
     max-width:100%;
@@ -43,7 +43,7 @@ color:#B8B8B8;
 }
 
 #navigation{
-	position: fixed;
+	position: static;
 	margin-top:0px;
 background-color: transparent;
 padding:0px;
@@ -75,7 +75,7 @@ max-width:300px;
 }
 
 #social {
-	position:fixed;
+	
 margin-top:4px;
 max-width:300px;
 min-width:200px;
