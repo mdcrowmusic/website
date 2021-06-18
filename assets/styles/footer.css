@@ -1,6 +1,6 @@
 
 footer{
- position:absolute;
+ position:relative;
     height: 80px;
 width:100%;
 left:0px;
@@ -51,9 +51,4 @@ cursor: pointer;
 text-decoration: none;
 }
 
-.coffee {
-padding-top:50px;
-padding-bottom: 5px;
-padding-right:20px;
 
-}
