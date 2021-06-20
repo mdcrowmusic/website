@@ -41,8 +41,8 @@ $(this).attr("src", "../assets/img/yt_hover.png");
 
 $("#showTracklist").click(function(){
 $("#tracklist").delay(700).fadeIn();
-$("#expanderA").animate({height:'200px'},"slow");
-$("#expanderB").animate({height:'200px'},"slow");
+$("#expanderA").animate({height:'150px'},"slow");
+$("#expanderB").animate({height:'150px'},"slow");
 $("#about").css('color', '');
 $("#music").css('color', '');
 $("#showTracklist").delay(700).hide(0);
