@@ -122,11 +122,17 @@ margin-top:45px;
 	height:6px;
 }
 
+#expanderB {
+margin-top:90px;
+	height:6px;
+}
+
 #join {
 width:100vw;
 margin-top:100px;
 right:200;
 left:200;
+z-index:-30;
 }
 
 
