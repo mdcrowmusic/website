@@ -6,10 +6,7 @@ width:100%;
 left:0px;
 right:0px;
 bottom: 0px;
-background-image: -webkit-linear-gradient(
-#f8f8ff 0%,
-#f8f8ff 80%
-);
+}
 
 
 
@@ -19,7 +16,7 @@ background-image: -webkit-linear-gradient(
 
 #copyright {
 
-    padding-top:160;
+    padding-top:50px;
     padding-bottom:5px;
     padding-left: 20px;
     margin-bottom:0px;
