@@ -1,11 +1,16 @@
 
 footer{
- position:relative;
+ position:fixed;
     height: 80px;
 width:100%;
 left:0px;
 right:0px;
 bottom: 0px;
+ background-image:{
+  -webkit-linear-gradient 
+  (f8f8ff 0%,
+  f8f8ff 80%);
+ }
 }
 
 
