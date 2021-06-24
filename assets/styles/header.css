@@ -131,11 +131,10 @@ margin-top:80px;
 
 #join {
 
-width:100%;
+width:100vw;
 margin-top:140px;
 z-index: 0;	
-	padding:10px;
-
+	padding:30;
 
 
 }
