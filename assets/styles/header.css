@@ -14,7 +14,7 @@
    padding-top: 7px;
    padding-left: 0px;
    padding-right: 0px;
-	 	z-index:100;
+	 	z-index:2;
 
 	
 
@@ -114,7 +114,7 @@ background-color: #f8f8ff;
 -webkit-box-shadow: 0px 1px 5px RGBa(0,85,120,0.5);
 width:100%;
 position:fixed;
-z-index:-10;
+z-index:1;
 }
 
 #expanderA {
@@ -132,7 +132,7 @@ margin-top:80px;
 #join {
 width:100vw;
 margin-top:120px;
-	
+z-index: 0;	
 
 }
 
