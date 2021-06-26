@@ -130,8 +130,8 @@ margin-top:6px;
 
 
 #join {
-
-width:100%;
+position:absolute
+width:100vw;
 margin-top:140px;
 z-index: 0;	
 	padding:30;
