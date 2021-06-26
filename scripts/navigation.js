@@ -2,8 +2,8 @@ $(document).ready(function(){
 var nav=$("#navigation .row");
 
 $("#siteTitle").click(function(){
-   $("#expanderA").animate({height:'6px'},"slow");
-    $("#expanderB").animate({height:'6px'},"slow");  
+   $("#expanderA").animate({height:'45px'},"slow");
+    $("#expanderB").animate({height:'80px'},"slow");  
    $("#about").css('color', '');
    $("#music").css('color', '');
    $("#tracklist").hide();
@@ -42,7 +42,7 @@ $(this).attr("src", "../assets/img/yt_hover.png");
 $("#showTracklist").click(function(){
 $("#tracklist").delay(700).fadeIn();
 $("#expanderA").animate({height:'150px'},"slow");
-$("#expanderB").animate({height:'150px'},"slow");
+$("#expanderB").animate({height:'180px'},"slow");
 $("#about").css('color', '');
 $("#music").css('color', '');
 $("#showTracklist").delay(700).hide(0);
@@ -53,8 +53,8 @@ $("#aboutDiv").hide();
 
 $("#hideTracklist").click(function(){
   $("#tracklist").delay(1).hide(0);
-  $("#expanderA").animate({height:'6px'},"slow");
-   $("#expanderB").animate({height:'6px'},"slow");
+  $("#expanderA").animate({height:'45px'},"slow");
+   $("#expanderB").animate({height:'80px'},"slow");
   $("#showTracklist").delay(700).show(0);
   $("#hideTracklist").delay(700).hide(0);
 });
