@@ -2,13 +2,13 @@
 footer{
  position:absolute;
 width:100vw;
+ height:40px;
  bottom:0;
 }
 
 
 
 #copyright {
- position:fixed;
  padding-bottom:8px;
  margin-bottom:0px;
     color:Black;
