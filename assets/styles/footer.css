@@ -2,13 +2,12 @@
 footer{
  position:absolute;
 width:100vw;
-margin-bottom: 0px;
+bottom:0;
 }
 
 
 
 #copyright {
-    padding-bottom:5px;
     color:Black;
     font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size:15px;
