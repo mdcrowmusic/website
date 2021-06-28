@@ -2,11 +2,13 @@
 footer{
  position:absolute;
 width:100vw;
- height:40px;
+ max-height:10vh;
  bottom:0;
 }
 
-
+#other {
+max-height:90vh;
+}
 
 #copyright {
  padding-bottom:8px;
