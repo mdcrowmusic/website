@@ -14,7 +14,7 @@ background-color: #f8f8ff;
 
 #aboutDiv {
 display:none;
-z-index:50;
+z-index:100;
 }
 
 
