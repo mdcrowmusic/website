@@ -12,8 +12,9 @@ background-color: #f8f8ff;
 }
 
 
-#aboutText {
+#aboutDiv {
 visibility:hidden;
+  z-index:100;
 }
 
 
