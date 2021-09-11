@@ -3,13 +3,9 @@ footer{
  position:absolute;
 width:100vw;
  max-height:10vh;
-margin-bottom:0;
 
 }
 
-#other {
-max-height:90vh;
-}
 
 #copyright {
  padding-bottom:8px;
@@ -17,17 +13,6 @@ max-height:90vh;
     color:Black;
     font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size:15px;
-}
-
-#overflow-bottom {
-background-color: #f8f8ff;
-position:fixed;
-left:0;
-bottom:0;
-width:100%;
-height: 300px;
-transform: translateY(295px);
-
 }
 
 a {
