@@ -1,8 +1,9 @@
 
 footer{
- position:absolute;
+ position:sticky;
 width:100vw;
  max-height:10vh;
+margin:0;
 
 }
 
