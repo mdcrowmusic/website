@@ -1,6 +1,6 @@
 
 footer{
- position:absolute;
+ position:fixed;
 width:100vw;
  max-height:10vh;
  padding-bottom:8px;
