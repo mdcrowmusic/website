@@ -62,7 +62,8 @@ $.ajax({
  $("#play").hide();
  $("#initialPlay").hide();
  $("#tracklist").hide();
- $("#expander").animate({height:'45px'},"slow");
+   $("#expanderA").animate({height:'45px'},"slow");
+   $("#expanderB").animate({height:'80px'},"slow");
 });
 });
 
