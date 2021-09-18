@@ -63,6 +63,7 @@ $.ajax({
  $("#initialPlay").hide();
  $("#tracklist").hide();
    $("#showTracklist").delay(700).show(0);
+   $("#hideTracklist").delay(700).hide(0);
    $("#expanderA").animate({height:'45px'},"slow");
    $("#expanderB").animate({height:'80px'},"slow");
 });
