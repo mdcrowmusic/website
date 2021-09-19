@@ -104,9 +104,10 @@ max-height:30px;
 
 
 #progress {
+position:fixed;
 width:100%;
 margin-top:0;
 height:4;
-  z-index:200;
+  z-index:3;
 
 }
