@@ -18,6 +18,15 @@ $("#about").css('color','RGB(0,85,120)');
 $("#music").css('color', '');
 $("#tracklist").hide();
 });
+   
+   $("#aboutMobile").click(function(){
+$("#expanderA").animate({height:'100%'},"slow");
+   $("#expanderB").animate({height:'100%'},"slow");
+$("#aboutDiv").delay(500).fadeIn();
+$("#about").css('color','RGB(0,85,120)');
+$("#music").css('color', '');
+$("#tracklist").hide();
+});
 
 
 
