@@ -16,7 +16,7 @@ background-color: #f8f8ff;
 width:85vw;
 }
 
-.mobile-button {
+button.mobile-button {
   width:85vw;
 height:40px;
   background:#f8f8ff;
