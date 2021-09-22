@@ -12,8 +12,14 @@ background-color: #f8f8ff;
 }
 
 #tree{
-padding-bottom:10px;
+  position:absolute;
 width:85vw;
+}
+
+.mobile-button {
+height:20px;
+  padding:10px;
+  
 }
 
 #aboutDiv {
