@@ -17,9 +17,9 @@ width:85vw;
 }
 
 .mobile-button {
+  position:absolute;
   width:85vw;
 height:40px;
-  padding:15px;
   background:#f8f8ff;
   
 }
