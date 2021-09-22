@@ -4,70 +4,16 @@
 <html>
 <title>Morgan Dillon Crow</title>
 <meta name="viewport" content="width=device-width, minimum-scale=.5, maximum-scale=1">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-<script src="https://kit.fontawesome.com/8f233f5c5b.js" crossorigin="anonymous"></script>
-<script src="../scripts/navigation.js"></script>
-<script src="../scripts/player.js"></script>
-<script src="../scripts/progress.js"></script>
-
-</head>
-<link rel="stylesheet" type="text/css" href="../assets/styles/header.css">
-<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
-<link rel="stylesheet" type="text/css" href="../assets/styles/player.css">
-<link rel="stylesheet" type="text/css" href="../assets/styles/about.css">
-<link rel="stylesheet" type="text/css" href="../assets/styles/footer.css">
 <link rel="stylesheet" type="text/css" href="assets/styles/body.css">
-
   
 
-
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
 <body id="background">
 
 <div id="other"></div>
 <div> <div class="expander d-none d-lg-block" id="expanderA"><div id="aboutDiv"> {% include about.html %}</div></div>
    <div class="expander d-lg-none" id="expanderB"></div>
-
-  <canvas id="progress" width="500" height="2"></canvas>
-<div class="container">
-<div class="flex-row row row1">
- 
-
-<a class="col-lg-3 justify-content-around text-center" id="siteTitle"> MORGAN DILLON CROW </a>
-
-<div id="navigation" class="d-inline-flex text-center justify-content-around col">
-<a class="d-none d-md-block link nav-link" id="about">  About  </a>
-<a class="d-none d-md-block link nav-link" href="http://soundcloud.com/mdcrow" target="_blank" id="music">  Music  </a>
-<a target="_blank" href="mailto:composer@mdcrow.com"
- class="d-none d-md-block link nav-link" id="contact" subject="Website Message">  Contact  </a>
-</div>
-
-<div id="social" class="justify-content-around col text-center d-none d-md-block">
-  <a class="social_icon" href=http://www.twitter.com/mdcrowmusic target="_blank"><img id="twitter" src=../assets/img/twitter_icon.png height=28px /></a>
-  <a class="social_icon" href=http://www.instagram.com/mdcrowmusic/ target="_blank"><img id="instagram" src=../assets/img/instagram_icon.png height=28px /></a>
-  <a class="social_icon" href=http://youtube.com/user/mdcrowmusic target="_blank"><img id="youtube" src=../assets/img/yt_icon.png height=28px /></a>
-</div>
- 
-<div id="musicplayer" class="d-inline-flex col-sm-12 col-md justify-content-around text-center">
-<button class="text-right" id="initialPlay"><i class="fa fa-play"></i></button>
-<button onclick="document.getElementById('player').pause()" class="" id="pause"><i class="fa fa-pause"></i></button>
-<button onclick="document.getElementById('player').play()" class="" id="play"><i class="fa fa-play"></i></button>
-<div id="current"></div>
-<button class="text-center" id="showTracklist"><i class="fa fa-bars"></i></button>
-<button class="text-center" id="hideTracklist"><i class="fa fa-bars"></i></button>
- 
- 
-</div>
-</div>
-
- </div>
-
-<ul id="tracklist" class="col align-self-center"></ul>
-<canvas id="progress" width="500" height="2"></canvas>
-<div id="top-overflow"></div>
-<audio id="player" ontimeupdate="updateBar()"></audio>
-</div>
-  
-  </div>
+ {% include header.html %}</div>
 <br>
 
 <div class="align-self-center" id="join">
@@ -93,3 +39,5 @@
 
 </body> 
 </html>
+
+
