@@ -7,7 +7,7 @@ var trackID;
 var lastPlayedTrack;
 // I set my variables outside of my .ajax function so that they have global scope.
 
-window.onload = function(){
+
 $.ajax({
   // you can link to a JSON file here, or an api link
   url: "https://api.soundcloud.com/playlists/302577446?client_id=d1729d6f17228d2c1132b127e9510b67",
@@ -93,4 +93,4 @@ if (currentTime === duration){
   canvas.fillStyle = "rgb(0,85,120)"
   canvas.fillRect(0, 0, progress, 50)
 }
-};
+
