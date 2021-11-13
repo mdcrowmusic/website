@@ -59,24 +59,8 @@ font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 
-#initialPlay{
-background:transparent;
-border:none;
-color:rgb(0,85,120);
-padding-top:10px;
-max-height:30px;
-}
 
-#pause{
-display:none;
-background:transparent;
-border:none;
-color:rgb(0,85,120);
-padding-top:10px;
-max-height:30px;
-}
 #play{
-  display:none;
   background:transparent;
   border:none;
   color:rgb(0,85,120);
