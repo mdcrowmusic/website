@@ -55,9 +55,6 @@ widget.getCurrentSound(function(currentSound) {
   
  //show/hide
  $(".track-item").click(function(){
- $("#pause").show();
- $("#play").hide();
- $("#initialPlay").hide();
  $("#tracklist").hide();
    $("#showTracklist").delay(700).show(0);
    $("#hideTracklist").delay(700).hide(0);
