@@ -9,7 +9,8 @@ widget.bind(SC.Widget.Events.FINISH,function(){
 });
 });
 
-function play(){  
+function play(){ 
+  var x = document.getElementById("play");
   if (x.innerHTML === "▶") {
     x.innerHTML = "||";
   } else {x.innerHTML = "▶";
