@@ -5,7 +5,7 @@ var x = document.getElementById("play");
 
 widget.bind(SC.Widget.Events.FINISH,function(){
   widget.getCurrentSound(function(currentSound) {
- document.getElementById("currentTrack").innerHTML = currentSound.title;
+ document.getElementById("current").innerHTML = currentSound.title;
 });
 });
 
@@ -22,7 +22,7 @@ function next(){
   widget.next();
   widget.seekTo(0);
 widget.getCurrentSound(function(currentSound) {
- document.getElementById("currentTrack").innerHTML = currentSound.title;
+ document.getElementById("current").innerHTML = currentSound.title;
 });
 };  
                        
@@ -31,13 +31,13 @@ function prev(){
   widget.prev();
   widget.seekTo(0);
 widget.getCurrentSound(function(currentSound) {
- document.getElementById("currentTrack").innerHTML = currentSound.title;
+ document.getElementById("current").innerHTML = currentSound.title;
 });
 }; 
 
 widget.bind(SC.Widget.Events.READY, function() {
 widget.getCurrentSound(function(currentSound) {
- document.getElementById("currentTrack").innerHTML = currentSound.title;
+ document.getElementById("current").innerHTML = currentSound.title;
        
   widget.getSounds(function(tracks){
     for (var i in tracks)
@@ -50,7 +50,7 @@ widget.getCurrentSound(function(currentSound) {
        widget.seekTo(0);
     widget.skip(s);       
       x.innerHTML = "||" ;     widget.getCurrentSound(function(currentSound) {
- document.getElementById("currentTrack").innerHTML = currentSound.title;
+ document.getElementById("current").innerHTML = currentSound.title;
 });
        
   });
