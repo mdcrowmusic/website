@@ -6,17 +6,13 @@ var widget         = SC.Widget(iframeElement);
 var x = document.getElementById("play");
 
 function play(){  
-  if (x.innerHTML === "▶") {
-    x.innerHTML = "||";
-  } else {x.innerHTML = "▶";
-         }
   widget.toggle();
 };
 
 
 widget.bind(SC.Widget.Events.READY, function() {
 widget.getCurrentSound(function(currentSound) {
- document.getElementById("currentTrack").innerHTML = currentSound.title;
+ document.getElementById("current").innerHTML = currentSound.title;
        
   widget.getSounds(function(tracks){
     for (var i in tracks)
