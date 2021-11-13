@@ -57,7 +57,7 @@ widget.getCurrentSound(function(currentSound) {
    $("#expanderA").animate({height:'45px'},"slow");
    $("#expanderB").animate({height:'80px'},"slow");
 });
-});
+
 
 function updateBar() {
 var canvasWidth = 500
@@ -77,4 +77,4 @@ var num = 1
   var progress = (canvasWidth * percentage)
   canvas.fillStyle = "rgb(0,85,120)"
   canvas.fillRect(0, 0, progress, 50)
-}
+};
