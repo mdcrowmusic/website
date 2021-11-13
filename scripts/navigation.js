@@ -67,20 +67,9 @@ $("#hideTracklist").click(function(){
   $("#showTracklist").delay(700).show(0);
   $("#hideTracklist").delay(700).hide(0);
 });
-$("#initialPlay").click(function(){
-$("#initialPlay").hide();
-$("#pause").show();
-});
 
 
-$("#pause").click(function(){
-$("#pause").hide();
-$("#play").show();
-});
-$("#play").click(function(){
-$("#play").hide();
-$("#pause").show();
-});
+
 
 
 });
