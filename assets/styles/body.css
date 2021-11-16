@@ -23,10 +23,10 @@ height:50px;
   font-size:20px;
     font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
     color:RGB(0,85,120);
-  border-radius: 5px;
+  border-radius: 10px;
   border:none; 
-    box-shadow: 5px 5px 2px RGB(0,85,120),
-      -5px -5px 2px RGB(0,85,120);
+    box-shadow: 2px 2px 5px RGB(0,85,120),
+      -2px -2px 5px RGB(0,85,120);
   
 }
 
