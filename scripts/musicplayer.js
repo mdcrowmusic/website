@@ -14,7 +14,10 @@ widget.getCurrentSound(function(currentSound) {
       $('#tracklist').append("<li class='track-item' id='" + i + "'" + ">" + tracks[i].title + "</li>");
 
     $(".track-item").click(function(){
-      var s = this.id;
+     x.classList.remove("fa-play");
+      x.classList.add("fa-pause");
+     
+     var s = this.id;
       widget.seekTo(0);
    widget.skip(s);
      x.innerHTML = "||" ;     
@@ -34,7 +37,5 @@ document.getElementById("currentTrack").innerHTML = currentSound.title;
 
 
 function play(){
- if (x.classlist("fa-play"){x.classList.toggle("fa-pause")}
- else{x.classlist.toggle("fa-play")};
   widget.toggle();
 };
