@@ -38,6 +38,7 @@ function play(){
  if(x.classList.contains("fa-play")){
  x.classList.remove("fa-play"); 
   x.classList.add("fa-pause");
- };
+ } else {x.classList.remove("fa-pause");
+         x.classList.add("fa-play")};
   widget.toggle();
 };
