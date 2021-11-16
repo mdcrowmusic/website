@@ -47,3 +47,9 @@ function play(){
          x.classList.add("fa-play")};
   widget.toggle();
 };
+
+widget.bind(SC.Widget.Events.FINISH,function(){
+  widget.getCurrentSound(function(currentSound) {
+ document.getElementById("currentTrack").innerHTML = currentSound.title;
+});
+});
