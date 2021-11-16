@@ -29,13 +29,13 @@ background-color:#f8f8ff;
   overflow-y: hidden;
     text-align: center;
   z-index:3;
-  scrollbar-color:dark;
+  scrollbar-color:black;
 
 
 }
 
 ::-webkit-scrollbar{
- width:0px;
+ width:1px;
 }
 
 div #current{
