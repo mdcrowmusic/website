@@ -1,6 +1,7 @@
 
 var iframeElement = document.querySelector('iframe');
 var widget = SC.Widget(iframeElement);
+var x = document.getElementById('play');
 
 widget.bind(SC.Widget.Events.READY, function() {
 widget.getCurrentSound(function(currentSound) {
@@ -13,7 +14,7 @@ widget.getCurrentSound(function(currentSound) {
       $('#tracklist').append("<li class='track-item' id='" + i + "'" + ">" + tracks[i].title + "</li>");
 
     $(".track-item").click(function(){
-      var s = this.id
+      var s = this.id;
       widget.seekTo(0);
    widget.skip(s);
      x.innerHTML = "||" ;     
@@ -33,7 +34,6 @@ document.getElementById("currentTrack").innerHTML = currentSound.title;
 
 
 function play(){
-  var x = document.getElementById('play')
   if (x.innerHTML === "▶") {
     x.innerHTML = "||";
   } else {x.innerHTML = "▶";
