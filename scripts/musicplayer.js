@@ -16,7 +16,8 @@ widget.getCurrentSound(function(currentSound) {
       var s = this.id
       widget.seekTo(0);
    widget.skip(s);
-     x.innerHTML = "||" ;     widget.getCurrentSound(function(currentSound) {
+     x.innerHTML = "||" ;     
+     widget.getCurrentSound(function(currentSound) {
 document.getElementById("currentTrack").innerHTML = currentSound.title;
 });
 
