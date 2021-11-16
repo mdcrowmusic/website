@@ -15,12 +15,10 @@ widget.getCurrentSound(function(currentSound) {
 
     $(".track-item").click(function(){
      x.classList.remove("fa-play");
-      x.classList.add("fa-pause");
-     
+      x.classList.add("fa-pause");     
      var s = this.id;
       widget.seekTo(0);
-   widget.skip(s);
-     x.innerHTML = "||" ;     
+   widget.skip(s);  
      widget.getCurrentSound(function(currentSound) {
 document.getElementById("currentTrack").innerHTML = currentSound.title;
 });
@@ -37,5 +35,9 @@ document.getElementById("currentTrack").innerHTML = currentSound.title;
 
 
 function play(){
+ if(x.classList.contains("fa-play")){
+ x.classList.remove("fa-play"); 
+  x.classList.add("fa-pause");
+ };
   widget.toggle();
 };
