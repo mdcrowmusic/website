@@ -29,6 +29,7 @@ background-color:#f8f8ff;
   overflow-y: hidden;
     text-align: center;
   z-index:3;
+  scrollbar-color:dark;
 
 
 }
