@@ -34,9 +34,6 @@ document.getElementById("currentTrack").innerHTML = currentSound.title;
 
 
 function play(){
-  if (x.innerHTML === "▶") {
-    x.innerHTML = "||";
-  } else {x.innerHTML = "▶";
-};
+element.classList.toggle("fa-pause");
   widget.toggle();
 };
