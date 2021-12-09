@@ -121,7 +121,7 @@ z-index:1;
 
 #expander {
 margin-top:6px;
-	height:5vh;
+	min-height:7vh;
 }
 
 
