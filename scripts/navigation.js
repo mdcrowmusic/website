@@ -3,7 +3,7 @@ var nav=$("#navigation .row");
 
 $("#siteTitle").click(function(){
    
-    $("#expander").animate({height:'10vh'},"slow");  
+    $("#expander").animate({height:'6vh'},"slow");  
    $("#about").css('color', '');
    $("#music").css('color', '');
    $("#tracklist").hide();
@@ -12,7 +12,7 @@ $("#siteTitle").click(function(){
 
 $("#about").click(function(){
 
-   $("#expander").animate({height:'100%'},"slow");
+   $("#expander").animate({height:'100vh'},"slow");
 $("#aboutDiv").delay(500).fadeIn();
 $("#about").css('color','RGB(0,85,120)');
 $("#music").css('color', '');
@@ -20,7 +20,7 @@ $("#tracklist").hide();
 });
    
    $("#aboutMobile").click(function(){
-   $("#expander").animate({height:'100%'},"slow");
+   $("#expander").animate({height:'100vh'},"slow");
 $("#aboutDiv").delay(500).fadeIn();
 $("#about").css('color','RGB(0,85,120)');
 $("#music").css('color', '');
@@ -50,7 +50,7 @@ $(this).attr("src", "../assets/img/yt_hover.png");
 $("#showTracklist").click(function(){
 $("#tracklist").delay(700).fadeIn();
 
-$("#expander").animate({height:'25vh'},"slow");
+$("#expander").animate({height:'40vh'},"slow");
 $("#about").css('color', '');
 $("#music").css('color', '');
 $("#showTracklist").delay(700).hide(0);
@@ -61,7 +61,7 @@ $("#aboutDiv").hide();
 
 $("#hideTracklist").click(function(){
   $("#tracklist").delay(1).hide(0);
-   $("#expander").animate({height:'10vh'},"slow");
+   $("#expander").animate({height:'6vh'},"slow");
   $("#showTracklist").delay(700).show(0);
   $("#hideTracklist").delay(700).hide(0);
 });
