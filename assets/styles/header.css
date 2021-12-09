@@ -115,14 +115,13 @@ background-color: #f8f8ff;
 width:100%;
 position:fixed;
 z-index:1;
+height:8px;
+
 }
 
 
 
-#expander {
-margin-top:-4px;
-	min-height:8vh;
-}
+
 
 
 
