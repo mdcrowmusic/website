@@ -117,14 +117,11 @@ position:fixed;
 z-index:1;
 }
 
-#expanderA {
-margin-top:6px;
-	height:45px;
-}
+
 
 #expanderB {
 margin-top:6px;
-	height:80px;
+	height:10vh;
 }
 
 
