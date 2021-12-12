@@ -8,7 +8,7 @@
    background-color: #f8f8ff;
 	-webkit-box-shadow: 0px 1px 5px RGBa(0,85,120,0.5);
    position:fixed;
-	 min-height:50px;
+	height:50px;
 
    width:100%;
 	top:0;
