@@ -73,7 +73,7 @@ font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 
 
 #showTracklist{
-  position:fixed;
+  position:absolute;
   background:transparent;
   border:none;
   color:rgb(0,85,120);
