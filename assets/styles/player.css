@@ -1,6 +1,7 @@
 
 #musicplayer{
 background-color:#f8f8ff;
+  position:sticky;
 }
 .track-item {
   color:#b8b8b8;
@@ -21,7 +22,6 @@ background-color:#f8f8ff;
 
 #tracklist{
   display: none;
-  position:fixed;
   width:100%;
   margin-top:70px;
   padding:50px;
