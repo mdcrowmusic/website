@@ -1,6 +1,5 @@
 
 #musicplayer{
-  position:absolute;
 background-color:#f8f8ff;
 }
 .track-item {
@@ -47,7 +46,7 @@ div #current{
 
 #currentTrack{
 color:RGB(0,85,120);
-position: static;
+position: fixed;
 list-style: none;
 min-width:150px;
 max-width: 200px;
@@ -63,6 +62,7 @@ font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 
 
 #play{
+  position:fixed;
   background:transparent;
   border:none;
   color:rgb(0,85,120);
@@ -73,6 +73,7 @@ font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 
 
 #showTracklist{
+  position:fixed;
   background:transparent;
   border:none;
   color:rgb(0,85,120);
@@ -80,6 +81,7 @@ font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
   max-height:30px;
 }
 #hideTracklist{
+  position:fixed;
   background:transparent;
   border:none;
   color:rgb(0,85,120);
