@@ -1,6 +1,6 @@
 
 #musicplayer{
-  position:fixed;
+  position:absolute;
 background-color:#f8f8ff;
 }
 .track-item {
