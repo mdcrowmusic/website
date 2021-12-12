@@ -45,7 +45,6 @@ div #current{
 
 #currentTrack{
 color:RGB(0,85,120);
-position: fixed;
 list-style: none;
 min-width:150px;
 max-width: 200px;
