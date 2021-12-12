@@ -1,5 +1,6 @@
 
 #musicplayer{
+  position:fixed;
 background-color:#f8f8ff;
 }
 .track-item {
