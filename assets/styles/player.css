@@ -1,8 +1,8 @@
-
 #musicplayer{
-background-color:#f8f8ff;
-}
-.track-item {
+
+ background-color:#f8f8ff;
+ }
+ .track-item {
   color:#b8b8b8;
   white-space: nowrap;
     display: inline;
@@ -10,17 +10,14 @@ background-color:#f8f8ff;
   padding-right:70px;
   font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
   font-size:16px;
-
-
 }
-
 .track-item:hover {
   cursor:pointer;
   color:RGB(0,85,120);
 }
-
 #tracklist{
   display: none;
+  position:fixed;
   width:100%;
   margin-top:70px;
   padding:50px;
@@ -29,26 +26,21 @@ background-color:#f8f8ff;
     text-align: center;
   z-index:3;
   scrollbar-color:black;
-
-
 }
-
 ::-webkit-scrollbar{
  width:1px;
 }
-
 div #current{
   background-image: url("ahuje.png");
   background-repeat: no-repeat;
   background-size:contain;
 }
-
 #currentTrack{
 color:RGB(0,85,120);
+position: static;
 list-style: none;
 min-width:150px;
 max-width: 200px;
-
 margin-top:10px;
 margin-bottom:12px;
 overflow-x: hidden;
@@ -56,19 +48,13 @@ font-size:14px;
 cursor: default;
 font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
-
-
-
 #play{
   background:transparent;
   border:none;
   color:rgb(0,85,120);
   padding-top:10px;
   max-height:30px;
-
 }
-
-
 #showTracklist{
   background:transparent;
   border:none;
@@ -77,7 +63,6 @@ font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
   max-height:30px;
 }
 #hideTracklist{
-  
   background:transparent;
   border:none;
   color:rgb(0,85,120);
@@ -85,13 +70,10 @@ font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
   max-height:30px;
   display: none;
 }
-
-
 #progress {
 position:fixed;
 width:100%;
 margin-top:0;
 height:4;
   z-index:3;
-
 }
