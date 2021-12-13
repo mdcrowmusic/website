@@ -1,11 +1,11 @@
 .row1 {
     background-color: #f8f8ff;
  	-webkit-box-shadow: 0px 1px 5px RGBa(0,85,120,0.5);
-    position:relative;
+    position:fixed;
 
  	 min-height:50px;
 
-    width:100%;
+    width:100vw;
  	top:0;
    padding-top: 7px;
    padding-left: 0px;
