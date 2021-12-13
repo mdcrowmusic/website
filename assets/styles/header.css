@@ -1,27 +1,18 @@
-
-
-
-
-
-
 .row1 {
-   background-color: #f8f8ff;
-	-webkit-box-shadow: 0px 1px 5px RGBa(0,85,120,0.5);
-   position:fixed;
-	height:50px;
+    background-color: #f8f8ff;
+ 	-webkit-box-shadow: 0px 1px 5px RGBa(0,85,120,0.5);
+    position:fixed;
 
-   width:100vw;
-	top:0;
+ 	 min-height:50px;
+
+    width:100%;
+ 	top:0;
    padding-top: 7px;
    padding-left: 0px;
    padding-right: 0px;
 	 	z-index:2;
-
 	
-
-
 }
-
 #siteTitle{
 	
    font-size:20px;
@@ -33,72 +24,48 @@
 	margin-top:7px;
 	max-height:40px;
 	white-space: nowrap;
-
-
-
 }
-
 #siteTitle:hover{
 margin-top:7px;
 color:#B8B8B8;
-
 }
-
 #navigation{
-
 	margin-top:0px;
 background-color: transparent;
 padding:0px;
 padding-left:10px;
 min-width:300px;
 max-width:300px;
-
-
 }
-
-
-
  .link.nav-link{
     padding-left:20px;
     padding-right:20px;
     font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
     font-size:18;
     color:#B8B8B8;
-
-
-
 }
-
   .link.nav-link:hover{
     color:RGB(0,85,120);
     text-decoration:none;
     border-spacing:0px;
-
 }
-
 #social {
 	
 margin-top:4px;
 max-width:300px;
 min-width:200px;
-
 }
-
 .social_icon{
 padding-left:6px;
 padding-right:6px;
 }
-
 a {
 color: #f8f8ff;
 }
 a:hover {
-
 cursor:pointer;
 text-decoration:none;
-
 }
-
 #top-overflow {
 background-color: #f8f8ff;
 position:fixed;
@@ -109,7 +76,6 @@ height: 300px;
 transform: translateY(-295px);
 z-index: -10;
 }
-
 .expander{
 background-color: #f8f8ff;
 -webkit-box-shadow: 0px 1px 5px RGBa(0,85,120,0.5);
@@ -117,23 +83,10 @@ width:100%;
 position:fixed;
 z-index:1;
 height:8px;
-
 }
-
-
-
-
-
-
-
 #join {
 position:absolute;
 width:100vw;
 margin-top:12vh;
 z-index: 0;	
-
-
-
 }
-
-
