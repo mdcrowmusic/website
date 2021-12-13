@@ -61,7 +61,7 @@ $("#aboutDiv").hide();
 
 $("#hideTracklist").click(function(){
   $("#tracklist").delay(1).hide(0);
-   $(".row").animate({height:'45px'},"slow");
+   $(".row").animate({height:'50px'},"slow");
   $("#showTracklist").delay(700).show(0);
   $("#hideTracklist").delay(700).hide(0);
 });
