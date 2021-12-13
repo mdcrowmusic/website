@@ -30,7 +30,7 @@ margin-top:7px;
 color:#B8B8B8;
 }
 #navigation{
-	position:sticky;
+	
 	margin-top:0px;
 background-color: transparent;
 padding:0px;
@@ -39,7 +39,6 @@ min-width:300px;
 max-width:300px;
 }
  .link.nav-link{
-	 position:inherit
     padding-left:20px;
     padding-right:20px;
     font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
@@ -52,7 +51,7 @@ max-width:300px;
     border-spacing:0px;
 }
 #social {
-	position:inherit;
+
 margin-top:4px;
 max-width:300px;
 min-width:200px;
