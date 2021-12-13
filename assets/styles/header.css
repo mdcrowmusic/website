@@ -30,7 +30,7 @@ margin-top:7px;
 color:#B8B8B8;
 }
 #navigation{
-	position:inherit;
+	position:relative;
 	margin-top:0px;
 background-color: transparent;
 padding:0px;
