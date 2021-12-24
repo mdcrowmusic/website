@@ -80,7 +80,7 @@ z-index: -10;
 background-color: #f8f8ff;
 -webkit-box-shadow: 0px 1px 5px RGBa(0,85,120,0.5);
 width:100%;
-position:absolute;
+position:fixed;
 z-index:1;
 height:8px;
 }
