@@ -22,6 +22,8 @@ $("#aboutDiv").delay(500).fadeIn();
 $("#about").css('color','RGB(0,85,120)');
 $("#music").css('color', '');
 $("#tracklist").hide();
+$("#showTracklist").delay(700).show(0);
+ $("#hideTracklist").delay(700).hide(0);
 });
    
    $("#aboutMobile").click(function(){
@@ -31,6 +33,8 @@ $("#aboutDiv").delay(500).fadeIn();
 $("#about").css('color','RGB(0,85,120)');
 $("#music").css('color', '');
 $("#tracklist").hide();
+$("#showTracklist").delay(700).show(0);
+ $("#hideTracklist").delay(700).hide(0);
 });
 
 
@@ -70,7 +74,7 @@ $("#hideTracklist").click(function(){
    $(".expander").animate({height:'8px'},"slow");
   $("#showTracklist").delay(700).show(0);
   $("#hideTracklist").delay(700).hide(0);
-      $(".row").delay(400).queue( function(next){$(this).css({"-webkit-box-shadow": "0px 1px 5px RGBa(0,85,120,0.5)"});
+      $(".row").delay(350).queue( function(next){$(this).css({"-webkit-box-shadow": "0px 1px 5px RGBa(0,85,120,0.5)"});
                                               next();
                                              });
 });
