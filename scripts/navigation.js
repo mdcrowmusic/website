@@ -1,12 +1,12 @@
 $(document).ready(function(){
 var nav=$("#navigation .row");
 
-   if ($(".expander").css({"height": "8px"})) {
-    $(".row").css({"-webkit-box-shadow": "0px 1px 5px RGBa(0,85,120,0.5)"});
-}
+   
    
 $("#siteTitle").click(function(){
-   
+   $(".row").delay(800).queue( function(next){$(this).css({"-webkit-box-shadow": "0px 1px 5px RGBa(0,85,120,0.5)"});
+                                              next();
+                                             });
     $(".expander").animate({height:'8px'},"slow");
    $("#about").css('color', '');
    $("#music").css('color', '');
