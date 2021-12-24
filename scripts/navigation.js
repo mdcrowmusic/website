@@ -4,7 +4,7 @@ var nav=$("#navigation .row");
 $("#siteTitle").click(function(){
    
     $(".expander").animate({height:'8px'},"slow"); 
-   $(".row").delay(3).css({"-webkit-box-shadow": "0px 1px 5px RGBa(0,85,120,0.5)"});
+   $(".row").delay(500).css({"-webkit-box-shadow": "0px 1px 5px RGBa(0,85,120,0.5)"});
    $("#about").css('color', '');
    $("#music").css('color', '');
    $("#tracklist").hide();
@@ -23,6 +23,7 @@ $("#tracklist").hide();
    
    $("#aboutMobile").click(function(){
    $(".expander").animate({height:'100%'},"slow");
+      $(".row").css({"-webkit-box-shadow": "0px 0px 0px"});
 $("#aboutDiv").delay(500).fadeIn();
 $("#about").css('color','RGB(0,85,120)');
 $("#music").css('color', '');
@@ -51,7 +52,7 @@ $(this).attr("src", "../assets/img/yt_hover.png");
 
 $("#showTracklist").click(function(){
 $("#tracklist").delay(700).fadeIn();
-
+$(".row").css({"-webkit-box-shadow": "0px 0px 0px"});
 $(".expander").animate({height:'200px'},"slow");
 $("#about").css('color', '');
 $("#music").css('color', '');
