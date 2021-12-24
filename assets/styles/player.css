@@ -40,6 +40,7 @@ color:RGB(0,85,120);
 position: static;
 list-style: none;
 min-width:150px;
+overflow:scroll;
 max-width: 200px;
 margin-top:10px;
 margin-bottom:12px;
