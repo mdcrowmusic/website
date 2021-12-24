@@ -4,7 +4,7 @@ var nav=$("#navigation .row");
 $("#siteTitle").click(function(){
    
     $(".expander").animate({height:'8px'},"slow"); 
-   $(".row").css({"-webkit-box-shadow": "0px 1px 5px RGBa(0,85,120,0.5)"});
+   $(".row").delay(1).css({"-webkit-box-shadow": "0px 1px 5px RGBa(0,85,120,0.5)"});
    $("#about").css('color', '');
    $("#music").css('color', '');
    $("#tracklist").hide();
