@@ -4,7 +4,7 @@ var nav=$("#navigation .row");
 $("#siteTitle").click(function(){
    
     $(".expander").animate({height:'8px'},"slow"); 
-   $(".row").css("{-webkit-box-shadow": "0px 1px 5px RGBa(0,85,120,0.5)"});
+   $(".row").css({"-webkit-box-shadow": "0px 1px 5px RGBa(0,85,120,0.5)"});
    $("#about").css('color', '');
    $("#music").css('color', '');
    $("#tracklist").hide();
@@ -14,7 +14,7 @@ $("#siteTitle").click(function(){
 $("#about").click(function(){
 
    $(".expander").animate({height:'100%'},"slow");
-   $(".row").css("{-webkit-box-shadow": "0px 0px 0px"});
+   $(".row").css({"-webkit-box-shadow": "0px 0px 0px"});
 $("#aboutDiv").delay(500).fadeIn();
 $("#about").css('color','RGB(0,85,120)');
 $("#music").css('color', '');
