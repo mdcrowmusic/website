@@ -70,7 +70,7 @@ $("#hideTracklist").click(function(){
    $(".expander").animate({height:'8px'},"slow");
   $("#showTracklist").delay(700).show(0);
   $("#hideTracklist").delay(700).hide(0);
-      $(".row").delay(500).queue( function(next){$(this).css({"-webkit-box-shadow": "0px 1px 5px RGBa(0,85,120,0.5)"});
+      $(".row").delay(400).queue( function(next){$(this).css({"-webkit-box-shadow": "0px 1px 5px RGBa(0,85,120,0.5)"});
                                               next();
                                              });
 });
