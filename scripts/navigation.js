@@ -1,7 +1,7 @@
 $(document).ready(function(){
 var nav=$("#navigation .row");
 
-   if ($('.expander').height() < 10) {
+   if ($(".expander").css("height") < 10) {
     $(".row").css({"-webkit-box-shadow": "0px 1px 5px RGBa(0,85,120,0.5)"});
 }
    
