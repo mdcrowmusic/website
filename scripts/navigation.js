@@ -4,7 +4,7 @@ var nav=$("#navigation .row");
    
    
 $("#siteTitle").click(function(){
-   $(".row").delay(800).queue( function(next){$(this).css({"-webkit-box-shadow": "0px 1px 5px RGBa(0,85,120,0.5)"});
+   $(".row").delay(700).queue( function(next){$(this).css({"-webkit-box-shadow": "0px 1px 5px RGBa(0,85,120,0.5)"});
                                               next();
                                              });
     $(".expander").animate({height:'8px'},"slow");
@@ -70,6 +70,9 @@ $("#hideTracklist").click(function(){
    $(".expander").animate({height:'8px'},"slow");
   $("#showTracklist").delay(700).show(0);
   $("#hideTracklist").delay(700).hide(0);
+      $(".row").delay(700).queue( function(next){$(this).css({"-webkit-box-shadow": "0px 1px 5px RGBa(0,85,120,0.5)"});
+                                              next();
+                                             });
 });
 
 
