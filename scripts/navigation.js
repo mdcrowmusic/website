@@ -1,10 +1,13 @@
 $(document).ready(function(){
 var nav=$("#navigation .row");
 
+   if ($('.expander').height() < 10px) {
+    $(".row").css({"-webkit-box-shadow": "0px 1px 5px RGBa(0,85,120,0.5)"});
+}
+   
 $("#siteTitle").click(function(){
    
-    $(".expander").animate({height:'8px'},"slow"); 
-   $(".row").delay(1000).css({"-webkit-box-shadow": "0px 1px 5px RGBa(0,85,120,0.5)"});
+    $(".expander").animate({height:'8px'},"slow");
    $("#about").css('color', '');
    $("#music").css('color', '');
    $("#tracklist").hide();
