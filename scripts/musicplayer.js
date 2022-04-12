@@ -15,8 +15,8 @@ widget.getCurrentSound(function(currentSound) {
 
     $(".track-item").click(function(){
       $("#tracklist").delay(1).hide(0);
-  $("#expanderA").animate({height:'45px'},"slow");
-   $("#expanderB").animate({height:'80px'},"slow");
+  $(".row").css({"-webkit-box-shadow": "0px 0px 0px"});
+$(".expander").animate({height:'8px'},"slow");
   $("#showTracklist").delay(700).show(0);
   $("#hideTracklist").delay(700).hide(0);
      x.classList.remove("fa-play");
