@@ -15,7 +15,7 @@ widget.getCurrentSound(function(currentSound) {
 
     $(".track-item").click(function(){
       $("#tracklist").delay(1).hide(0);
-  $(".row").css({"-webkit-box-shadow": "0px 0px 0px"});
+  $(".row").delay(350).queue( function(next){$(this).css({"-webkit-box-shadow": "0px 1px 5px RGBa(0,85,120,0.5)"});
 $(".expander").animate({height:'8px'},"slow");
   $("#showTracklist").delay(700).show(0);
   $("#hideTracklist").delay(700).hide(0);
