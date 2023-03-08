@@ -1,7 +1,6 @@
 .row1 {
     background-color: #f8f8ff;
     position:fixed;
--webkit-box-shadow: 0px 1px 5px RGBa(0,85,120,0.5);
  	 min-height:45px;
 
     width:100vw;
@@ -78,7 +77,6 @@ z-index: -10;
 }
 .expander{
 background-color: #f8f8ff;
--webkit-box-shadow: 0px 1px 5px RGBa(0,85,120,0.5);
 width:100%;
 position:fixed;
 z-index:1;
