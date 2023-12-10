@@ -1,6 +1,7 @@
 
 body {
     background-color:#fffff8;
+    font-family:"Palatino Linotype", "Book Antiqua", Palatino, serif;
 }
 
 iframe {
@@ -13,8 +14,10 @@ iframe:hover {
 }
 
 h1 {
-text-align:center; color: rgb(0, 85, 120);font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+text-align:center; 
+color: rgb(0, 85, 120);
 }
 h2 {
-    text-align:center; color: #29353D;font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align:center;
+    color: #29353D;
 }
