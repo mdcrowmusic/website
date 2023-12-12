@@ -15,8 +15,10 @@ iframe:hover {
 h1 {
 text-align:center; 
 color: rgb(0, 85, 120);
+font-weight: lighter;
 }
 h2 {
     text-align:center;
     color: #29353D;
+    font-weight: lighter;
 }
