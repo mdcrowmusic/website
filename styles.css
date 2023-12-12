@@ -6,16 +6,27 @@ body {
 iframe {
     opacity: 0.4;
     filter: grayscale();
+    max-width: 500px;
+    width: 85vw;
+    height: 350px;
+    display: block;
+    margin: 0 auto;
+    
+
 }
 
 iframe:hover {
-    opacity: 1;
+    opacity: .8;
+    
 }
+
+
 
 h1 {
 text-align:center; 
 color: rgb(0, 85, 120);
 font-weight: lighter;
+
 }
 h2 {
     text-align:center;
