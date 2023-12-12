@@ -1,0 +1,9 @@
+@font-face {
+    font-family: AvenirBook;
+    src: url(../Assets/Fonts/Avenir-Book.woff);
+}
+
+.avenir {
+    font-family: AvenirBook;
+}
+

@@ -1,0 +1,38 @@
+/* background colors */
+
+.bg-deep-teal {
+background-color: rgb(0,85,120);
+}
+
+.bg-ghost-white {
+background-color: #fffff8;
+}
+
+.bg-light-grey {
+
+}
+
+.bg-cracked-pepper {
+background-color: #29353D
+}
+
+/* text colors */
+
+.txt-deep-teal {
+color: rgb(0,85,120);
+}
+
+.txt-bgghost-white {
+color: #fffff8;
+}
+
+.txt-light-grey {
+
+}
+
+.txt-cracked-pepper {
+color: #29353D;   
+}
+
+
+/**/
